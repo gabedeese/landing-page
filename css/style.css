@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -27,7 +27,7 @@ a {
 
 header .links {
   display: flex;
-  gap: 24px;
+  gap: 32px;
   flex-shrink: 0;
 }
 
@@ -71,14 +71,14 @@ header .logo {
   color: #e5e7eb;
 }
 
-.hero button {
+button {
   height: 32px;
   width: 96px;
   color: #f9faf8;
   background-color: #3882f6;
   border-radius: 6px;
   font-weight: 900;
-  box-shadow: none;
+  filter: none;
 }
 
 button:hover {
@@ -140,6 +140,42 @@ h1 {
 
 .quote p {
   text-align: right;
-  font-weight: 900;
+  font-style: normal;
+  font-weight: 700;
   font-size: 24px;
+}
+
+.cta {
+  display: flex;
+  height: 150px;
+  margin: 100px 300px;
+  padding: 0 96px;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 8px;
+}
+
+.cta .text .main {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.cta .text .subtext {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.cta button {
+  border-color: #f9faf8;
+  border-style: solid;
+}
+
+footer {
+  padding: 32px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
 }
