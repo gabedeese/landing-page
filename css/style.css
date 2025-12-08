@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.item .image {
+  height: 100px;
+  width: 100px;
+  border-width: 2px;
+  border-color: #3882f6;
+  border-radius: 4px;
+}
+
+header,
+.hero {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+header {
+  height: 24px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 200px 48px 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+header .links {
+  display: flex;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+header .logo {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.hero {
+  height: 300px;
+  padding: 0 200px 48px;
+  gap: 96px;
+  align-items: center;
+}
+
+.hero .left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
+.hero .image {
+  display: flex;
+  flex: 1;
+  height: 200px;
+  width: 350px;
+  background-color: #6d747d;
+}
+
+.hero .left .text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero .left .subtext {
+  margin: 16px 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero button {
+  height: 24px;
+  width: 96px;
+}
