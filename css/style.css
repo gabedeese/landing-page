@@ -76,6 +76,7 @@ button {
   width: 96px;
   color: #f9faf8;
   background-color: #3882f6;
+  border: none;
   border-radius: 6px;
   font-weight: 900;
   filter: none;
